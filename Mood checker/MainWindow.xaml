@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="Input" HorizontalAlignment="Left" Height="101" Margin="178,133,0,0" TextWrapping="Wrap" Text="What have you been up to today?" VerticalAlignment="Top" Width="425" RenderTransformOrigin="0.513,0.178" KeyDown="TextBox_KeyDown"/>
+        <Image x:Name="Emoji" HorizontalAlignment="Left" Height="100" Margin="637,134,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="Accuracy_Label" Content="" HorizontalAlignment="Left" Margin="637,249,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,1.923" Width="100"/>
+
     </Grid>
 </Window>
