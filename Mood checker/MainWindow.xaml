@@ -5,11 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mood_checker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Mood Guesser" Height="450" Width="800">
     <Grid>
         <TextBox x:Name="Input" HorizontalAlignment="Left" Height="101" Margin="178,133,0,0" TextWrapping="Wrap" Text="What have you been up to today?" VerticalAlignment="Top" Width="425" RenderTransformOrigin="0.513,0.178" KeyDown="TextBox_KeyDown"/>
         <Image x:Name="Emoji" HorizontalAlignment="Left" Height="100" Margin="637,134,0,0" VerticalAlignment="Top" Width="100"/>
-        <Label x:Name="Accuracy_Label" Content="" HorizontalAlignment="Left" Margin="637,249,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,1.923" Width="100"/>
+        <Label x:Name="Accuracy_Label" Content="--" HorizontalAlignment="Left" Margin="689,249,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,1.923" Width="48"/>
+        <Label Content="Accuracy:" HorizontalAlignment="Left" Margin="637,249,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.211,-0.885" Width="77"/>
+        <Label Content="Tell me how was your day and I will guess whether it you are sad or happy." VerticalAlignment="Top" Margin="10,50,0,0" Height="40" Width="772" FontSize="20" HorizontalAlignment="Left" HorizontalContentAlignment="Center"/>
 
     </Grid>
 </Window>
